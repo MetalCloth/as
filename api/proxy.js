@@ -2,7 +2,7 @@ const axios = require('axios');
 const FormData = require('form-data');
 const busboy = require('busboy');
 
-module.exports = async (req, res) => {
+module.exports = async (req , res) => {
   try {
     const targetUrl = 'http://yolo-rawat-b3b26999.eastus.azurecontainer.io:8000/detect';
     const formData = new FormData();
