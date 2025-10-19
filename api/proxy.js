@@ -4,7 +4,7 @@ const busboy = require('busboy');
 
 module.exports = async (req , res) => {
   try {
-    const targetUrl = 'http://yolo-rawat-b3b26999.eastus.azurecontainer.io:8000/detect';
+    const targetUrl = 'http://yolo-rawat-f604b2cc.eastus.azurecontainer.io:8000/detect';
     const formData = new FormData();
 
     const bb = busboy({ headers: req.headers });
